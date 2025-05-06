@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TILT - FHSU</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fff;
+      color: #222;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 0.95rem;
+    }
+
+    .banner {
+      background-color: #fff6dc;
+      padding: 10px 20px;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .sidebar {
+      width: 270px;
+      background: #fdb913;
+      padding: 15px;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .sidebar ul li {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    .sidebar ul li:hover {
+      background-color: #333;
+    }
+
+    .sidebar .contact {
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    .content {
+      flex: 1;
+      padding-left: 25px;
+    }
+
+    .content h2 {
+      font-size: 1.6rem;
+      margin-top: 0;
+      color: #000;
+    }
+
+    .content p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .content img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h3 {
+      color: #000;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    section ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    section li {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+
+    section a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    section a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+	
+	table {
+	background-color: #fff6dc;
+	width: 80%;
+	}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FORT HAYS STATE UNIVERSITY</h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Academics</a>
+      <a href="#">Admissions</a>
+      <a href="#">Athletics</a>
+      <a href="#">International</a>
+      <a href="#">Online</a>
+      <a href="#">Apply</a>
+    </nav>
+  </header>
+
+  <div class="banner">TILT</div>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Teaching Innovation and Learning Technologies</h3>
+      <ul>
+        <li>About Us</li>
+        <li>TigerLearn Blog</li>
+        <li>Instructional Technology</li>
+        <li>Faculty Development</li>
+        <li>Course Development</li>
+        <li>Blackboard Support</li>
+        <li>Blackboard Ultra Course Transition</li>
+        <li>Ed Tech Support Contacts</li>
+        <li>Staff</li>
+      </ul>
+
+      <div class="contact">
+        <strong>How to Reach Us</strong><br/>
+        Hammond Hall, Second Floor<br/>
+        Phone: 785-628-4194<br/>
+        Fax: 785-628-4043<br/>
+        Hours: M–F 8:30–4:30<br/><br/>
+        <strong>Staff Email:</strong> TigerLearn@fhsu.edu
+      </div>
+    </aside>
+
+    <main class="content">
+      <h2>Teaching Innovation and Learning Technologies</h2>
+
+      <img src="images/home.png" alt="TILT Overview Image" />
+
+		<table border="1">
+			<th> Course Development </th>
+			<th> Educational Technology </th>
+			<th> Faculty Development </th>
+			
+			<tr>
+				<td> Build or refresh your course with expert help. Whether developing a new course or updating an existing one, we’ll work with you on design, structure, and integration of technology—all tailored to your teaching goals. <br><br> <a href="#"> Start a Course Project </a></td>
+				<td> Use technology with confidence and impact. Get support for Blackboard, proctoring tools, and engaging multimedia content. We help you choose and implement the right tools for teaching—both in-person and online. <br><br> <a href="#"> Explore Tech Tools &amp; Support </a></td>
+				<td> Grow as a teacher, scholar, and professional. We offer workshops, mentoring, and custom support in pedagogy, research, and service—designed for faculty at all stages. <br><br> <a href="#"> View Training &amp; Programs</a></td>
+			</tr>
+		</table>
+	</main>
+  </div>
+
+  <footer>
+    FORT HAYS STATE UNIVERSITY<br />
+    600 Park Street, Hays, KS 67601-4099
+  </footer>
+
+</body>
+</html>
